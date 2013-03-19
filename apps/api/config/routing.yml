@@ -1,0 +1,9 @@
+message_member_list:
+  url: /message/member_list.json
+  param: { module: message, action: memberList, sf_format: json }
+  requirements: { sf_method: [get] }
+
+message_thread:
+  url: /message/thread.json
+  param: { module: message, action: thread, sf_format: json }
+  requirements: { sf_method: [get] }
